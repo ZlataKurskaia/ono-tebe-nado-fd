@@ -35,16 +35,19 @@
   height: 105px;
 }
 
-.address__header {
+.address {
   font-size: 18px;
   line-height: 24.3px;
   font-style: normal;
+}
+
+.header__address {
   max-width: 240px;
   justify-self: end;
   padding-right: 35px;
 }
 
-.address__header-link {
+.address__link {
   text-underline-position: under;
 }
 
@@ -107,6 +110,7 @@
 }
 
 .bet-button {
+  border: 1px solid #fff;
   width: 256px;
   height: 51px;
   border-width: 1px;
@@ -237,8 +241,8 @@
   line-height: 24px;
 }
 
-.about__first-paragraph {
-  padding-bottom: 24px;
+.about__paragraph {
+  margin-bottom: 24px;
 }
 
 .footer {
@@ -246,16 +250,6 @@
   display: grid;
   grid-template-columns: 265px 164px 240px;
   justify-content: space-between;
-}
-
-.address__footer {
-  font-size: 18px;
-  line-height: 24.3px;
-  font-style: normal;
-}
-
-.address__footer-link {
-  text-underline-position: under;
 }
 
 .footer__menu {
